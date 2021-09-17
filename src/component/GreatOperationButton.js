@@ -2,7 +2,7 @@ import React from "react";
 
 const GreatOperationButton = ({ morad }) => {
   return (
-    <div>
+    <div className="OperationBtns">
       <button onClick={morad} id="+">
         +
       </button>

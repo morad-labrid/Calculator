@@ -1,10 +1,12 @@
 import React from "react";
+import IsOverNineThousend from "./IsOverNineThousend";
 
 const BeautifullScreen = ({ samy, karim }) => {
   return (
-    <div>
-      <h1>{samy}</h1>
-      <h1>{karim}</h1>
+    <div className="screen">
+      <p>{samy}</p>
+      <p>{karim}</p>
+      <IsOverNineThousend karim={karim} />
     </div>
   );
 };

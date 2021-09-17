@@ -1,8 +1,12 @@
 import React from "react";
 
-const MagnificientEqualButton = ({ nadir }) => {
+const MagnificientEqualButton = ({ nadir, morad }) => {
   return (
-    <div>
+    <div className="equalGroupe">
+      <button onClick={morad} id="0">
+        0
+      </button>
+      {/* <button>.</button> */}
       <button onClick={nadir}>=</button>
     </div>
   );
